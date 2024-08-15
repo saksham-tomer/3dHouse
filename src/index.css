@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .canvas{
+  min-height: 100vh;
+} */
+
+.example::-webkit-scrollbar{
+  display: none;
+}
+
+.model{
+  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
+}
